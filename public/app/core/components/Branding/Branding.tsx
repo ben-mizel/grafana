@@ -24,7 +24,7 @@ const LoginBackground: FC<BrandComponentProps> = ({ className, children }) => {
       right: 0;
       bottom: 0;
       top: 0;
-      background: url(public/img/g8_login_${theme.isDark ? 'dark' : 'light'}.svg);
+      background-color: yellow;
       background-position: top center;
       background-size: auto;
       background-repeat: no-repeat;
@@ -59,7 +59,7 @@ export class Branding {
   static LoginBackground = LoginBackground;
   static MenuLogo = MenuLogo;
   static LoginBoxBackground = LoginBoxBackground;
-  static AppTitle = 'Grafana';
+  static AppTitle = 'My Test';
   static LoginTitle = 'Welcome to Grafana';
   static GetLoginSubTitle = (): null | string => {
     return null;
